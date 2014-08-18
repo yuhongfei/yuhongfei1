@@ -1,0 +1,56 @@
+<suite name="XGAutomation" >	
+ 
+	 <test name="login" preserve-order="flase" >
+		<classes>			
+			<!-- <class name="com.xigua365.loginregister.testcase.loginEmailCase" >
+			类中的方法执行  可以通过methods来确定，  preserve-order="true"用例执行是有明确的先后顺序的
+			  <METHODS>  
+               <include name="launchSite" />  
+               <include name="openAdminPage" />  
+               <include name="loginAsAdmin" />  
+               <include name="navigateNewPost" />  
+               <include name="writeBlogPost" />  
+               <include name="publishBlogPost" />  
+               <include name="verifyBlogPost" />  
+              </METHODS>  
+			 -->
+			 <!--com.xigua365.loginregister.testcase.loginEmailCase这个case类只执行两个方法 -->
+			 <!-- <methods> 
+			    <include name="loginPage12" />
+			    <include name="loginPage13" />   
+			 </methods> 
+			</class> -->
+			<!--com.xigua365.loginregister.testcase.loginPhoneCase这个case类只执行所有方法 
+			<class name="com.xigua365.loginregister.testcase.loginPhoneCase"/>
+			<class name="com.xigua365.loginregister.testcase.LoginEmailCase"/>
+			<class name="com.xigua365.loginregister.testcase.ThirdLogin"/>
+			<class name="com.xigua365.loginregister.testcase.RegisterEmailCase"/>
+			<class name="com.xigua365.loginregister.testcase.loginPhoneCase"/>
+			<class name="com.xigua365.loginregister.testcase.RegisterEmailCase"/>-->
+			<class name="loginregister.testcase.IsLogin" >
+			  <!--<methods>  
+               <include name="openHomePage" />  
+               <include name="openRegisterPage" />  
+               <include name="userNameDefault" />  
+               <include name="userNameNull" />  
+               <include name="userNamePhoneError" />  
+               <include name="userNamePhoneErrorEglish" />  
+               <include name="userNamePhoneErrorChinese" />  
+               <include name="userNamePhoneErrorHtml" />  
+               <include name="userNamePhoneErrorJscript" />  
+               <include name="userNameErrorSpecialChar" />  
+               <include name="userNameErrorPhoneExiste" />  
+               <include name="userNamePhoneTrue" />  
+               <include name="userNamePhoneClickCodeDefault" />  
+               <include name="userNamePhoneClickCode" />  
+               <include name="passwordDefault" />  
+               <include name="userNamePhoneClickCodeNull" />  
+               <include name="userNamePhoneClickCodeerror" />  
+               <include name="userNamePhoneClickCodeFive" />  
+               <include name="passwordTestDefault" />  
+               <include name="registerSuccessful" />  
+              </methods>-->
+            </class>  
+		</classes>
+	</test> 	
+</suite> 

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19041" started-at="2014-04-08T08:14:34Z" finished-at="2014-04-08T08:14:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19041" started-at="2014-04-08T08:14:34Z" finished-at="2014-04-08T08:14:53Z">
+      <class name="loginregister.testcase.send">
+        <test-method status="PASS" signature="Login()[pri:0, instance:loginregister.testcase.send@6dd6c962]" name="Login" is-config="true" duration-ms="15888" started-at="2014-04-08T16:14:34Z" finished-at="2014-04-08T16:14:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Sendimg()[pri:0, instance:loginregister.testcase.send@6dd6c962]" name="Sendimg" duration-ms="3142" started-at="2014-04-08T16:14:50Z" finished-at="2014-04-08T16:14:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sendimg -->
+        <test-method status="PASS" signature="quitFf()[pri:0, instance:loginregister.testcase.send@6dd6c962]" name="quitFf" is-config="true" duration-ms="1" started-at="2014-04-08T16:14:53Z" finished-at="2014-04-08T16:14:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitFf -->
+      </class> <!-- loginregister.testcase.send -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [XGAutomation]">
+  <test name="login(failed)">
+    <classes>
+      <class name="loginregister.testcase.PhoneRegisterCase">
+        <methods>
+          <include name="userNamePhoneTrue"/>
+          <include name="registerSuccessful"/>
+          <include name="userNamePhoneErrorChinese"/>
+          <include name="userNamePhoneErrorEglish"/>
+          <include name="userNamePhoneClickCodeNull"/>
+          <include name="loadFf"/>
+          <include name="userNamePhoneClickCode"/>
+          <include name="quitFf"/>
+          <include name="userNamePhoneError"/>
+          <include name="userNameDefault"/>
+          <include name="userNamePhoneErrorHtml"/>
+          <include name="userNamePhoneClickCodeFive"/>
+          <include name="userNamePhoneErrorJscript"/>
+          <include name="userNamePhoneClickCodeDefault"/>
+          <include name="userNameNull"/>
+          <include name="userNameErrorSpecialChar"/>
+          <include name="userNamePhoneClickCodeerror"/>
+        </methods>
+      </class> <!-- loginregister.testcase.PhoneRegisterCase -->
+    </classes>
+  </test> <!-- login(failed) -->
+</suite> <!-- Failed suite [XGAutomation] -->
